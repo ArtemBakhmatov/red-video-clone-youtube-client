@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+  --primary: #AD2528;
+  --bg: #191B28;
+  --white: #FFF;
+  --border: #2A3439;
+}
+
+body {
+  background-color: var(--bg);
+ //@apply rounded bg-blue-500 px-4 py-2 text-white;
+ @apply text-white text-lg;
+ 
+}
